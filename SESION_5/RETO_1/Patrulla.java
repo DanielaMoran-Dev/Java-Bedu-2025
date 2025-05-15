@@ -1,4 +1,4 @@
-public class Patrulla extends UnidadEmergencia {
+public class Patrulla extends Principal {
     private SistemaGPS gps;
     private Sirena sirena;
     private Operador operador;
@@ -12,7 +12,7 @@ public class Patrulla extends UnidadEmergencia {
 
     @Override
     public void responder() {
-        System.out.println("🚓 Patrulla atendiendo situación de seguridad ciudadana.");
+        System.out.println("Patrulla atendiendo situación de seguridad ciudadana.");
     }
 
     public void iniciarOperacion() {

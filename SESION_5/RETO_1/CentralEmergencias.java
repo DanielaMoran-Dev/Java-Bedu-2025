@@ -1,9 +1,8 @@
 public class CentralEmergencias {
     public static void main(String[] args) {
-        // Crear operadores
-        Operador operador1 = new Operador("Juan");
+        Operador operador1 = new Operador("Dany");
         Operador operador2 = new Operador("Laura");
-        Operador operador3 = new Operador("Marco");
+        Operador operador3 = new Operador("Oscar");
 
         // Crear unidades
         Ambulancia ambulancia = new Ambulancia("Ambulancia", operador1);

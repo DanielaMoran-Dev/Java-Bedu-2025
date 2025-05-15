@@ -1,4 +1,4 @@
-public class UnidadBomberos extends UnidadEmergencia {
+public class UnidadBomberos extends Principal {
     private SistemaGPS gps;
     private Sirena sirena;
     private Operador operador;
@@ -12,7 +12,7 @@ public class UnidadBomberos extends UnidadEmergencia {
 
     @Override
     public void responder() {
-        System.out.println("🔥 Unidad de bomberos respondiendo a incendio estructural.");
+        System.out.println("Unidad de bomberos respondiendo a incendio estructural.");
     }
 
     public void iniciarOperacion() {

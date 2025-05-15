@@ -11,6 +11,6 @@ public abstract class MetodoPago {
 
     // Método concreto para mostrar el resumen del pago
     public void mostrarResumen() {
-        System.out.println("📄 Tipo: " + this.getClass().getSimpleName() + " - Monto: $" + monto);
+        System.out.println("Tipo: " + this.getClass().getSimpleName() + " - Monto: $" + monto);
     }
 }

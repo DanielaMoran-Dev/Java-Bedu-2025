@@ -1,4 +1,4 @@
-public class Ambulancia extends UnidadEmergencia {
+public class Ambulancia extends Principal {
     private SistemaGPS gps;
     private Sirena sirena;
     private Operador operador;
@@ -12,7 +12,7 @@ public class Ambulancia extends UnidadEmergencia {
 
     @Override
     public void responder() {
-        System.out.println("🩺 Ambulancia en camino al hospital más cercano.");
+        System.out.println("Ambulancia en camino al hospital más cercano.");
     }
 
     public void iniciarOperacion() {

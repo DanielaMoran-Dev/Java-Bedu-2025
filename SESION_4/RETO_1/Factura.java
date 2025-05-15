@@ -5,7 +5,6 @@ public class Factura {
     private String cliente;
     private double total;
 
-    // Constructor
     public Factura(String folio, String cliente, double total) {
         this.folio = folio;
         this.cliente = cliente;
@@ -27,7 +26,6 @@ public class Factura {
         return Objects.equals(folio, factura.folio);
     }
 
-    // hashCode: solo basado en folio
     @Override
     public int hashCode() {
         return Objects.hash(folio);
